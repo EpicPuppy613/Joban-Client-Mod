@@ -8,7 +8,7 @@ import org.mtr.mod.block.BlockPIDSHorizontalBase;
 
 public class PIDS1ABlockEntity extends BlockPIDSHorizontalBase.BlockEntityHorizontalBase {
     public PIDS1ABlockEntity(BlockPos blockPos, BlockState blockState) {
-        super(PIDS1ABlock.MAX_ARRIVALS, BlockEntities.PIDS_1A.get(), blockPos, blockState);
+        super(PIDS1ABlock.MAX_ARRIVALS, "", BlockEntities.PIDS_1A.get(), blockPos, blockState);
     }
 
     @Override

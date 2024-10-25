@@ -1,7 +1,6 @@
 package com.lx862.jcm.mod.block;
 
 import com.lx862.jcm.mod.block.entity.PIDS1ABlockEntity;
-import com.lx862.jcm.mod.util.BlockUtil;
 import org.mtr.mod.block.IBlock;
 import org.mtr.mapping.holder.*;
 import org.mtr.mapping.mapper.BlockEntityExtension;
@@ -10,7 +9,7 @@ import org.mtr.mod.block.BlockPIDSHorizontalBase;
 public class PIDS1ABlock extends BlockPIDSHorizontalBase {
     public static final int MAX_ARRIVALS = 3;
     public PIDS1ABlock() {
-        super(MAX_ARRIVALS);
+        super(MAX_ARRIVALS, "ui.jsblock.pids_1a");
     }
 
     @Override
